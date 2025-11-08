@@ -1,7 +1,7 @@
 
 # Мой Сайт-Портфолио
 
-[![Веб-сайт](https://img.shields.io/badge/Посмотреть_сайт-Перейти-blue?style=for-the-badge&logo=vercel)](https://hhhakky.github.io/portfolio/) 
+[![Веб-сайт](https://img.shields.io/badge/Посмотреть_сайт-Перейти-blue?style=for-the-badge&logo=googlechrome)](https://hhhakky.github.io/portfolio/) 
 
 Этот репозиторий содержит исходный код моего личного сайта-портфолио. Сайт представляет из себя визитную карточку, где я рассказываю о себе, своих навыках, показываю выполненные проекты.
 
