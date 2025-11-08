@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <audio id="backgroundMusic" loop src="music/lofi.mp3"></audio>
+        <button id="musicToggle" class="music-btn-icon">
+            <img src="img/stop.png" alt="Play music" class="music-icon" />
+        </button>
+
+        <div class="profile-block">
+            <div class="block">
+                <div class="header">
+                    <img src="img/profile.png" alt="(X)" class="icon" />Profile
+                </div>
+                <div class="body">
+                    <img
+                        src="img/icon-profile.jpeg"
+                        alt=""
+                        class="avatarIcon"
+                    />
+                    <div class="text">
+                        Hakky<br />
+                        <div class="description">hhhakky · he/him</div>
+                        <br />
+                        I am a novice specialist in the field of information
+                        security, I also study web development and much more.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block about">
+            <div class="header">
+                <img src="img/social.png" alt="(X)" class="icon" />About
+            </div>
+            <div class="body">
+                <div class="text">
+                    You can address me as hakky.<br />
+                    I'm a
+                    <a href="https://satbayev.university/en"
+                        >Satbaev University</a
+                    >
+                    student.<br />
+                    Love linux, but now I'm working on a macOS<br />
+                    I also like to study, read books, and want to develop.
+                </div>
+            </div>
+        </div>
+
+        <div class="block projec">
+            <div class="header">
+                <img src="img/star.png" alt="(X)" class="icon" />My project
+                <div class="description">&nbsp;last repository</div>
+            </div>
+            <div class="body">
+                <div id="repos" class="repos">
+                    <h3 class="repos-title">Мои репозитории</h3>
+                    <div class="repo-list">Загрузка...</div>
+                    <div class="repo-footer">
+                        <small
+                            >Показываются последние обновлённые репозитории
+                            (public).</small
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block skils">
+            <div class="header">
+                <img src="img/skils.png" alt="(X)" class="icon" />My skils
+            </div>
+            <div class="body">
+                <div class="text">
+                    <div class="tags">
+                        <span class="tag" style="--color: #d8b166"
+                            >JavaScript</span
+                        >
+                        <span class="tag" style="--color: #bf616a">HTML</span>
+                        <span class="tag" style="--color: #81a1c1">CSS</span>
+                        <span class="tag" style="--color: #88c0d0">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block activity">
+            <div class="header">
+                <img src="img/githubact.png" alt="GitHub" class="icon" />GitHub
+                Activity
+            </div>
+            <div class="body">
+                <div class="calendar-container">
+                    Loading the data just for you.
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
